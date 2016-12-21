@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Plan de Dios</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="naonymous">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="index.js"></script>
+	</head>
+	<body>
+        <!--Header-->
+		<ul class="top-nav" id="iglnav">
+			<li id="menulogo"><img src="https://68.media.tumblr.com/2b40c96140ed8b6b267b484e89050b73/tumblr_oieq8sAWHJ1w0lp4fo1_1280.png" id="logo"></li>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="#">Nosotros</a></li>
+			<li class="icon">
+				<a href="javascript:void(0);" onclick="displayMenu()">&#9776;</a>
+			</li>
+		</ul>
+        <!--/header-->
+        
+        <!--Aqui esta el apartado de mensajes al correo-->
+        <div id="Mensaje">
+<h3 id="Titulo">Dejanos un mensaje</h3>
+            
+        <div id="Formulario">
+<form name="contactform" method="post" action="send_form_email.php"> 
+    <table width="450px"><!---Este tamaño en px es personalizable -->
+    <tr>
+    <td valign="top">
+    <label for="first_name" class="Nom">Nombre *</label>
+    </td>
+    
+            
+    <td valign="top">
+        <br>
+<input  type="text" name="first_name" maxlength="50" size="30">
+    </td>
+        </tr>
+       <hr>
+        <tr>
+ <td valign="top">
+  <label for="last_name" class="Nom">Apellido *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+        </tr>
+<tr>
+ <td valign="top">
+  <label for="email" class="Nom">E-mail *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone" class="Nom">Teléfono</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="message" class="Nom">Mensaje *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="message" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+   <a href="http://www.ladirecciondetusitio/send_form_email.php">
+     <input type="submit" value="Enviar">   
+     <!--Aqui hay que poner la direccion del dominio cuando se compre xd-->
+    </a>
+ </td>
+</tr>
+</table>
+</form>    
+            </div>
+        </div>
+        <!--/Aqui esta el apartado de mensajes al correo-->
+        
+        
+	</body>
+</html>
