@@ -20,81 +20,85 @@
         <!--/header-->
         
         <!--Aqui esta el apartado de mensajes al correo-->
-        <section>
+  <div class="container-fluid">
+    <section>
+      <div class="row first-row">
+      <article> 
+          
+        <div class="col-xs-10 col-xs-offset-1">
+          <h3 class="Titulo">Dejanos un mensaje</h3>
             
-        <article id="Mensajes">    
-        <div id="Mensaje">
-<h3 class="Titulo">Dejanos un mensaje</h3>
-            
-        <div id="Formulario">
-<form name="contactform" method="post" action="send_form_email.php"> 
-    <table width="450px"><!---Este tamaño en px es personalizable -->
-    <tr>
-    <td valign="top">
-    <label for="first_name" class="Nom">Nombre *</label>
-    </td>
+          <div id="Formulario" class="col-xs-10 col-xs-offset-1">
+            <form name="contactform" method="post" action="send_form_email.php"> 
+              <table><!---Este tamaño en px es personalizable -->
+                <tr>
+                  <td valign="top" class="col-xs-2">
+                    <label for="first_name" class="Nom">Nombre:</label>
+                  </td>
     
             
-    <td valign="top">
-        <br>
-<input  type="text" name="first_name" maxlength="50" size="30">
-    </td>
-        </tr>
-       <hr>
-        <tr>
- <td valign="top">
-  <label for="last_name" class="Nom">Apellido *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-        </tr>
-<tr>
- <td valign="top">
-  <label for="email" class="Nom">E-mail *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone" class="Nom">Teléfono</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="message" class="Nom">Mensaje *</label>
- </td>
- <td valign="top">
-  <textarea  name="message" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-   <a href="http://www.ladirecciondetusitio/send_form_email.php">
-     <input type="submit" value="Enviar">   
+                  <td valign="top" class="col-xs-7">
+                    <br>
+                    <input  type="text" name="first_name" class="col-xs-10">
+                  </td>
+                </tr>
+                <hr>
+                <tr>
+                  <td valign="top" class="col-xs-2">
+                    <label for="last_name" class="Nom">Apellido:</label>
+                  </td>
+                  <td valign="top" class="col-xs-8 form-input">
+                    <input  type="text" name="last_name">
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" class="col-xs-2">
+                  <label for="email" class="Nom">E-mail:</label>
+                  </td>
+                  <td valign="top" class="col-xs-8 form-input">
+                  <input  type="text" name="email">
+                  </td>
+                </tr>
+                  <tr>
+                    <td valign="top" class="col-xs-2">
+                      <label for="telephone" class="Nom">Tel&eacute;fono:</label>
+                    </td>
+                    <td valign="top" class="col-xs-8 form-input">
+                    <input  type="text" name="telephone">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td valign="top" class="col-xs-2">
+                      <label for="message" class="Nom">Mensaje:</label>
+                    </td>
+                    <td valign="top" class="col-xs-8 form-input">
+                      <textarea  name="message" style="width:100%" rows="6"></textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="text-align:center">
+                      <a href="http://www.ladirecciondetusitio/send_form_email.php">
+                      <input type="submit" value="Enviar">   
      <!--Aqui hay que poner la direccion del dominio cuando se compre xd-->
-    </a>
- </td>
-</tr>
-</table>
-</form>    
-            </div>
+                      </a>
+                    </td>
+                  </tr>
+              </table>
+            </form>    
+          </div>
         </div>
-        <!--/Aqui esta el apartado de mensajes al correo-->
+                <!--/Aqui esta el apartado de mensajes al correo-->
         </article>
-            
-            <article id="mapa">
-                <h3 class="Titulo">Estamos aqui:</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1891.6046675647099!2d-69.83700040551454!3d18.51944003007893!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2s!4v1482353074073" width="500px" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
-            
-            </article>
-            
+        </div>
+        <div class="row">
+        <article id="mapa">
+            <h3 class="Titulo col-xs-10 col-xs-offset-1">Visitanos</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1891.6046675647099!2d-69.83700040551454!3d18.51944003007893!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2s!4v1482353074073" class="col-xs-10 col-xs-offset-1" height="600px" frameborder="0" style="border:0;margin-bottom:50px" allowfullscreen></iframe>
+        
+        </article>
+        </div>
             
         </section>
+      </div>  
 	</body>
 </html>
