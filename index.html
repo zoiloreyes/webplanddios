@@ -3,10 +3,13 @@
 	<head>
 		<title>Plan de Dios</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="naonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="index.js"></script>
 	</head>
 	<body>
+		<!--Navigation bar-->
 		<ul class="top-nav" id="iglnav">
 			<li id="menulogo"><img src="https://68.media.tumblr.com/2b40c96140ed8b6b267b484e89050b73/tumblr_oieq8sAWHJ1w0lp4fo1_1280.png" id="logo"></li>
 			<li><a href="index.html">Inicio</a></li>
@@ -16,36 +19,36 @@
 				<a href="javascript:void(0);" onclick="displayMenu()">&#9776;</a>
 			</li>
 		</ul>
-		<div class="slideshow-container">
 
-			<div class="mySlides fade">
-			  <div class="numbertext">1 / 3</div>
-			  <img src="https://lh3.googleusercontent.com/LsSbS6PYZqtjmK-lu-soNsE613867XIbh1eRbMn38kGA2p9gGeS6u3avhk1GL_O0FSIrFabvzTnYVqv8bvDK6WLIwZEAnJ04ig=w1024-h768-no" style="height: 500px;width:100%">
-			  <div class="text">Caption Text</div>
-			</div>
+		<!-- SlideShow-->
+		 <div class="slideshow-container">
+		  <div class="mySlides">
+		    <div class="numbertext">1 / 3</div>
+		    <a><img src="https://lh3.googleusercontent.com/-Vel_5LtEDF0/WGGOWzGA5wI/AAAAAAAAAQk/Nszm96R7hf4d-LWepBaDCSzradI-UGb7QCJoC/w424-h318-n/praying.jpg" style="height:550px;width:100%"></a>
+		    <div class="text">Mira nuestros horarios</div>
+		  </div>
 
-			<div class="mySlides fade">
-			  <div class="numbertext">2 / 3</div>
-			  <img src="https://lh3.googleusercontent.com/JWgO3bPut7ppqxh8vtMGq_rSqOFNaOiKAKk93qxchNZWywF2Si2quCkudxnkFWIsfcK7xhxMjHt1xJbKWk0CqP5N5SqA-2v2kw=w1024-h768-no" style="height: 500px;width:100%">
-			  <div class="text">Caption Two</div>
-			</div>
+		  <div class="mySlides">
+		    <div class="numbertext">2 / 3</div>
+		    <a href="contacto.html#mapa"><img src="https://lh3.googleusercontent.com/JWgO3bPut7ppqxh8vtMGq_rSqOFNaOiKAKk93qxchNZWywF2Si2quCkudxnkFWIsfcK7xhxMjHt1xJbKWk0CqP5N5SqA-2v2kw=w1024-h768-no" style="height:550px;width:100%"></a>
+		    <div class="text">Visitanos</div>
+		  </div>
 
-			<div class="mySlides fade">
-			  <div class="numbertext">3 / 3</div>
-			  <img src="https://lh3.googleusercontent.com/wnaI_KIKMhDYGsfacevMn1NNfJSANWcx5dykd9wyzGOe2kFp_ZQl1h__tTMzp4vLp5BEdG9HZ5e7jHSWOfDJXrmn5e73OBdKrg=w1024-h768-no	" style="height: 500px;width:100%">
-			  <div class="text">Caption Three</div>
-			</div>
+		  <div class="mySlides">
+		    <div class="numbertext">3 / 3</div>
+		    <a><img src="https://lh3.googleusercontent.com/wnaI_KIKMhDYGsfacevMn1NNfJSANWcx5dykd9wyzGOe2kFp_ZQl1h__tTMzp4vLp5BEdG9HZ5e7jHSWOfDJXrmn5e73OBdKrg=w1024-h768-no" style="height:550px;width:100%"></a>
+		    <div class="text">Con&oacute;cenos</div>
+		  </div>
 
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
 
-			</div>
-			<br>
-
-			<div style="text-align:center">
-			  <span class="dot" onclick="currentSlide(1)"></span> 
-			  <span class="dot" onclick="currentSlide(2)"></span> 
-			  <span class="dot" onclick="currentSlide(3)"></span> 
-			</div>
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
 	</body>
 </html>

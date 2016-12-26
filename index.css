@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
-.mySlides {display: none}
+
 body {
 	font-family: 'Nunito Sans', Sans-serif	;
 	background-color: #fff;
@@ -132,6 +132,7 @@ input[type=submit] {
 .first-row{
 	margin-top: 100px;
 }
+/*Slideshow :v*/
 
 .slideshow-container {
   max-width: 1000px;
@@ -157,7 +158,6 @@ input[type=submit] {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -180,7 +180,6 @@ input[type=submit] {
   top: 0;
 }
 
-
 .dot {
   cursor:pointer;
   height: 13px;
@@ -196,20 +195,6 @@ input[type=submit] {
   background-color: #717171;
 }
 
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+a:hover{
+	text-decoration: none;
 }
