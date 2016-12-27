@@ -24,7 +24,7 @@ ul.top-nav li a{
 	display: inline-block;
 	color: #FFF;
 	text-align: center;
-	padding: 26px 30px;
+	padding: 16px 25px;
 	text-decoration: none;
 	transition: 0.3s;
 	font-size: 23px;
@@ -67,7 +67,7 @@ ul.top-nav li.icon{display: none;}
 	padding: 0;
 }
 #logo{
-	width: 400px;
+	width: 300px;
 	margin-right: 90px;
 }
 
@@ -197,4 +197,19 @@ input[type=submit] {
 
 a:hover{
 	text-decoration: none;
+}
+
+/* footer */
+.division{
+	border-radius: 5px;
+	padding-bottom: .1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color: #0059D1;
+}
+footer{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
