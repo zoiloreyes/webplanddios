@@ -208,7 +208,17 @@ a:hover{
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+/*Horarios*/
+.table-title{
+	background-color: #0059D1;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+} 
 
+#tabla-misa:hover, #tabla-grupo:hover{
+	box-shadow: 0px 0px 5px gray;
+}
 /* footer */
 .division{
 	border-radius: 5px;
