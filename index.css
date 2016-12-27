@@ -3,7 +3,7 @@
 
 body {
 	font-family: 'Nunito Sans', Sans-serif	;
-	background-color: #fff;
+	background-color: #F3FFFF;
 }
 h1{
 	font-size: 30px;
@@ -197,6 +197,16 @@ input[type=submit] {
 
 a:hover{
 	text-decoration: none;
+}
+.fade{
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade{
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* footer */
